@@ -1,0 +1,29 @@
+# Language =ja translations for  02_i18n package.
+# Copyright (C) 2024 THE  02_i18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  02_i18n package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  02_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-16 21:17+0300\n"
+"PO-Revision-Date: 2024-06-16 17:21+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: =ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:5
+msgid "Hello!"
+msgstr "おはよう！"
+
+#: main.py:5
+msgid "testuser"
+msgstr "テストユーゼル"
+
+#: main.py:5
+msgid "My name is %s"
+msgstr "お名前は%s"

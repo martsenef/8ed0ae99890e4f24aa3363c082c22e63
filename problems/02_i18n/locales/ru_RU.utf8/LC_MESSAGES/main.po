@@ -1,0 +1,29 @@
+# Language =ru translations for  02_i18n package.
+# Copyright (C) 2024 THE  02_i18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  02_i18n package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  02_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-16 21:13+0300\n"
+"PO-Revision-Date: 2024-06-16 17:18+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: =ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:5
+msgid "Hello!"
+msgstr "Здрасьте!"
+
+#: main.py:5
+msgid "testuser"
+msgstr "тестюзер"
+
+#: main.py:5
+msgid "My name is %s"
+msgstr "Меня зовут %s"
