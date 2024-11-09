@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-def uopen(file_name,mode):
-	return open(file_name,mode,encoding='utf-8')
-def custom_write(file_name, strings):
-	with uopen(file_name,'w') as f:
-		res={}
-		for i,s in enumerate(strings):
-			res[i+1,f.tell()]=s
-			f.write(s+'\n')
-		return res
+def custom_write(file_name, strings,encoding='utf-8'):
+	with open(file_name,'w') as file:
+		result={}
+		for index,string in enumerate(strings):
+			result[index+1,file.tell()]=string
+			file.write(string+'\n')
+		return result
 			
 info = [
     'Text for tell.',
@@ -19,4 +17,3 @@ info = [
 result = custom_write('test.txt', info)
 for elem in result.items():
   print(elem)
-
