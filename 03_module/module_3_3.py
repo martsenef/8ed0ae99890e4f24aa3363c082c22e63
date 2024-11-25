@@ -48,8 +48,8 @@ def l23(list,dict):
 def l32v(l,v):
 	return print_params(*l,v)
 	
-values_list=[[1],['текст'],[None]]
-values_dict ={'a':{'a'},'b':{'b'},'c':{'c'}}
+values_list=[1,'текст',[None]]
+values_dict ={'a':{'a'},'b':['b'],'c':'c'}
 
 testdata=[
 #1
@@ -74,6 +74,6 @@ testdata=[
 	[TypeError,l23,[[[1],[2]],{'b':{'b'},'c':{'c'}}] ],
 	[([1],[2],{'c'}),l23,[[[1],[2]],{'c':{'c'}}] ],
 #3.2
-	[([1],[2],'value'),l32v,[[[1],[2]],42] ]
+	[([1],[2],42),l32v,[[[1],[2]],42] ]
 ]
 test_display(testdata)
