@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from _test import test_display
 
 calls=0
